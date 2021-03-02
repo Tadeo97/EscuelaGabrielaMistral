@@ -1,0 +1,353 @@
+/*Principal*/
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+/*H*/
+h1 {font-size: 66px; font-weight: 600; line-height: 80px;}
+h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+h5 {
+    margin-bottom: 0px;
+}
+section {
+    padding: 120px 0;
+}
+.bg-light-grey {background-color: #f5f5f5;}
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    min-height: 100px;
+    
+}
+
+
+img{
+    text-decoration: none;
+}
+p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a i {
+    font-size: 22px;
+    color: white;
+}
+
+/*Clases adicionadas*/
+.topmargin-xs {margin-top: 15px;}
+.topmargin-sm {margin-top: 300px;}
+.topmargin-lg {margin-top: 60px;}
+
+ /*BOTONES*/
+.btn { 
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+
+}
+.btn-light {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.btn i { font-size: 14px;
+margin-left: 5px;}
+.btn-dark {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.full-width {
+    width:100%;
+}
+.text-dark { color: green;}
+.nav-link {
+    color: black;
+}
+.nav-link:hover { color:blue}
+.logo-brand {
+    min-width: 160px;
+    max-width: 180px;
+}
+#imagLogo {
+    max-width: 100px;
+    min-height: 100px;
+}
+
+
+.navbar-toggler {
+    font-size: 40px;}
+.navbar-toggler:focus {outline: none;}
+
+/*HERO*/
+
+#hero {
+    background-color:coral;
+    background-size: cover;
+    padding-top: 300px;
+    min-height: 700px;
+    color: white;
+
+}
+#hero p {
+    color: #ffffff;
+}
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+}
+/*Quienes Somos*/
+.quienesSomos-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0 ;
+    border-radius: 2px;
+}
+.quienesSomos-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.quienesSomos-container:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.quienesSomos-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+.quienesSomos-details h2 {
+    margin-bottom: 0px;
+}
+.quienesSomos-details a h2, .quienesSomos-details a p {
+    color: white;
+
+}
+
+/*MIembros o usuarios*/
+.member-container {
+    position: relative;
+    margin:10px 0;
+
+}
+
+.member-details {
+    position: absolute;
+    color: #ffffff;
+    bottom: 0px;
+    left: 20px;
+}
+
+.member-details span {
+    font-size: 14px;
+}
+
+.member-details i {
+    padding: 5px;
+}
+
+/*PRECIOS O INSCRIPCIONES*/
+.pricing-container {
+    margin: 15px 0;
+    width: 200px;
+    
+}
+
+.plans {
+    padding: 50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+
+.plan-light {
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+.plan-dark {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+
+.plans h2 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.plans span {
+    font-size: 20px;
+}
+
+.plans ul {
+    list-style-type: square;
+}
+
+.carousel {
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+
+}
+.carousel p {
+    font-size: 26px;
+    font-weight: 400;
+    color: black;
+    font-weight: bold;
+}
+
+.rating {
+    color: gold;
+    font-size: 26px;
+}
+
+/*Carousel*/
+.carousel-indicators li {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+
+}
+
+.carousel-controls-next, .carousel-control-prev {
+    color: white;
+    opacity: 1;
+    width: 5%;
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.control-button {
+    background-color: black;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+/*contactos*/
+.form-control {
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 2px;
+    height: auto;
+}
+.form-control:focus {
+    border: 1px solid black;
+    outline: none;
+    box-shadow: none;
+
+}
+/*Footer*/
+
+.bg-dark {
+    background-color: black;
+    
+
+}
+#footer {
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+#footer a {
+    color: white;
+}
+#footer a:hover {
+    color: white;
+}
+#footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+#body-contactos {
+    background-color:whitesmoke;
+}
+.DecorationIMG {
+    text-decoration: none;
+}
+#ViviPng {
+    height: 270px;
+    width: 250px;
+}
+#DocentesImg {
+    height: 410px;
+    width: 780px;
+
+}
+.letrasWithe {
+    color: white;
+}
+#DondeEstamosSection {
+    height: 300px;
+    width: 100%;
+    margin-top: -115px;
+    text-align: center;
+    background-color:antiquewhite;
+}
+iframe {
+    width: 100%;
+    margin-top: -117px;
+}
+#TextConsulta {
+    height: 200px;
+}
+#CellphoneNumber {
+    width: 100px;
+}
+
+/*MEDIA QUERY*/
+@media (max-width: 575,98px) { 
+    h1 {font-size: 40px; line-height:normal }
+    .quienesSomos-details h2 {font-size: 32px;}
+    .plans {min-width: unset; padding: 40px}
+ }
+
+
+@media (min-width: 576px) and (max-width: 767,90px){ }  
+
+
+@media (min-width: 768px) and (max-width: 991,90px) { 
+    .quienesSomos-details h2 {font-size: 30px;}
+    .plans {min-width: unset; padding: 40px 20px;} 
+
+@media (min-width:992px) and (max-width: 1199,98px) {  }
+
+@media (min-width: 1200px) and (max-width:) {  }
